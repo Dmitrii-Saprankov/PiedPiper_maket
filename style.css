@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+h3 {
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+
+}
+
+.header {
+    background-color: #007765;
+    padding: 20px 0;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header__navigation-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.piper-net {
+    background-image: url(../images/Jumbotron.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 160px 0;
+}
+
+.piper-net__heading {
+    color: #fff;
+    font-weight: 500;
+    font-size: 72px;
+}
+
+.problem {
+    background-color: #eee;
+    padding: 48px 150px 92px 150px;
+}
+
+.problem__heading {
+    margin-bottom: 16px;
+}
+
+.network {
+    background-image: url(../images/background-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 160px;
+}
+
+.network__text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.piper-coin {
+    padding: 50px 150px 90px 150px;
+}
+
+.piper-coin__heading {
+    margin-bottom: 16px;
+}
+
+.piper-coin__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.piper-coin__logo {
+    margin-right: 48px;
+}
+
+.team {
+    background-color: #eee;
+    padding: 58px 150px 112px 150px;
+}
+
+.team__heading {
+    margin-bottom: 56px;
+}
+
+.team__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team__card {
+    width: 190px;
+    margin-right: 10%;
+    margin-bottom: 60px;
+}
+
+.team__card_no-mr {
+    margin-right: 0;
+}
+
+.team__name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin-top: 12px;
+}
+
+.team__job {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer {
+    background-color: #333;
+    padding: 50px 35% 62px 35%;
+}
+
+.footer__text {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1200px) {
+
+    .team__card {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        width: 120px;
+        height: 35px;
+    }
+
+    .header__navigation-list {
+        flex-direction: column;
+    }
+
+    .header__navigation-link {
+        margin-bottom: 10px;
+    }
+    
+    .piper-coin {
+        padding: 48px 65px 56px 65px;
+    }
+
+    .piper-coin__flex {
+        flex-direction: column;
+    }
+
+    .piper-coin__heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .piper-coin__logo {
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 16px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 576px) {
+    h3 {
+        font-size: 56px;
+        line-height: 55px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .header__logo {
+        width: 120px;
+        height: 35px;
+    }
+
+    .header__navigation-list {
+        flex-direction: column;
+    }
+
+    .header__navigation-link {
+        margin-bottom: 10px;
+    }
+
+    .problem {
+        padding: 48px 65px 56px 65px;
+    }
+
+    .network {
+        padding: 78px 40px;
+    }
+
+    .network__text {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .piper-coin {
+        padding: 48px 65px 56px 65px;
+    }
+
+    .piper-coin__flex {
+        flex-direction: column;
+    }
+
+    .piper-coin__heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .piper-coin__logo {
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 16px;
+        align-self: center;
+    }
+
+    .team {
+        background-color: #eee;
+        padding: 48px 65px 56px 65px;
+    }
+
+    .team__heading {
+        margin-bottom: 16px;
+    }
+
+    .footer {
+        padding: 50px 15% 62px 15%;
+    }
+}
